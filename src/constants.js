@@ -1,0 +1,9 @@
+export const OFFWHITE = "#fffef0";
+export const MAHROON = "#701b1b";
+export const THEME_COLOR = MAHROON;
+export const BUYER_COLLECTION = "reviewIt_buyers";
+export const SELLER_COLLECTION = "reviewIt_sellers";
+export const LIGHT_GRAY = "#b8b6b6";
+export const INSECTS_COLLECTION = "reviewIt_insects";
+export const USERS_COLLECTION = "reviewIt_users";
+export const CATEGORIES_COLLECTION = "reviewIt_categories";
