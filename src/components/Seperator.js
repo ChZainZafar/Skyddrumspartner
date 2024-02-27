@@ -8,7 +8,7 @@ export default function Seperator() {
         height: 2,
         width: "100%",
         backgroundColor: Constants.LIGHT_GRAY,
-        marginVertical: 20,
+        marginVertical: 10,
       }}
     />
   );

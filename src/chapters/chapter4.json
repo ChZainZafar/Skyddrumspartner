@@ -1,0 +1,203 @@
+{
+    "chapter_id": "4",
+    "chapter_name": "Gastät dörr",
+    "questions": [
+        {
+            "question_id": "04a",
+            "statement": "Inklädnad av dörr är lätt demonterbar.",
+            "types": "1,2",
+            "further_options": [
+                "04a-1 Fel: Inklädnad av dörr är inte lätt demonterbar. Åtgärd: Inklädnad görs lätt demonterbar enligt typlösning T03- 102.$$q"
+            ]
+        },
+        {
+            "question_id": "04b",
+            "statement": "Gastät dörr och skyddsdörr kan öppnas oberoende avvarandra.",
+            "types": "1",
+            "further_options": [
+                "04b-1 Fel: Dörrblad är utåtgående och kolliderar med skyddsdörr. Åtgärd: Dörrhängning ändras enligt typlösning T04-102.$$q"
+            ]
+        },
+        {
+            "question_id": "04c",
+            "statement": "Dörr med karm är placerad i vägg mellan permanent luftsluss och skyddsrum.",
+            "types": "1,2",
+            "further_options": [
+                "04c-1 Fel: Dörr med karm saknas mellan luftsluss och skyddsrum. Åtgärd: Ny dörr inklusive karm skall anordnas enligt typlösning T04103.$$q"
+            ]
+        },
+        {
+            "question_id": "04d",
+            "statement": "Dörrblad inklusive karm är av godkänd typ.",
+            "types": "1,2",
+            "further_options": [
+                "04d-1 Fel: Dörrblad inklusive karm är inte av godkänd typ. Åtgärd: Nytt dörrblad inklusive karm skall anordnas enligt typlösning T04-103.$$q"
+            ]
+        },
+        {
+            "question_id": "04e",
+            "statement": "Dörrblad är påhängt och justerat i karm.",
+            "types": "1,2",
+            "further_options": [
+                "04e-1 Fel: Dörrblad saknas. Åtgärd: Nytt dörrblad skall monteras enligt typlösning T04- 101.$$q",
+                "04e-2 Fel: Dörrblad är inte justerat i karm. Åtgärd: Dörrblad skall justeras. Se typlösning T04-101."
+            ]
+        },
+        {
+            "question_id": "04f",
+            "statement": "Dörrblad går fritt från golv, väggar eller installationer vid öppnande och stängande.",
+            "types": "1,2",
+            "further_options": [
+                "04f-1 Fel: Dörrblad tar i golv, väggar eller installationer vid öppnande och stängande. Åtgärd: Dörr alternativt dess omgivning skall justeras. Se typlösning T04-101.$$q"
+            ]
+        },
+        {
+            "question_id": "04g",
+            "statement": "Ingjutning av karm med tröskel är riktigt gjord. ",
+            "types": "1,2",
+            "further_options": [
+                "04g-1 Fel: Håligheter finns mellan karm och vägg. Åtgärd: Håligheter skall igenlagas enligt typlösning T12-102.$$q"
+            ]
+        },
+        {
+            "question_id": "04h",
+            "statement": "Dörr och karm är rostskyddsbehandlade och utan rostangrepp",
+            "types": "1,2",
+            "further_options": [
+                "04h-1 Fel: Bristande rostskyddsbehandling på karm och dörr. Åtgärd: Rostskyddsbehandling skall kompletteras enligt typlösning T12-105.$$q",
+                "04h-2 Fel: Rostskyddsbehandling saknas på karm och dörr. Åtgärd: Karm och dörr skall rostskyddsbehandlas enligt typlösning T12-105.$$q"
+            ]
+        },
+        {
+            "question_id": "04i",
+            "statement": "Dörrblad är tätt.",
+            "types": "1,2",
+            "further_options": [
+                "04i-1 Fel: Dörrblad är inte tätt. Åtgärd: Dörrblad tätas enligt typlösning T04-101.$$q"
+            ]
+        },
+        {
+            "question_id": "04j",
+            "statement": "Tröskel finns. ",
+            "types": "1,2",
+            "further_options": [
+                "04j-1 Fel: Löstagbar tröskel saknas. Åtgärd: Ny tröskel enligt typlösning T04201 utförs.$$q",
+                "04j-2 Fel: Fast tröskel saknas. Åtgärd: Ny tröskel enligt typlösning T04201 utförs.$$q"
+            ]
+        },
+        {
+            "question_id": "04k",
+            "statement": "Springa mellan karm och dörrblad utan tätningslist är 3-7 mm.",
+            "types": "1,2",
+            "further_options": [
+                "04k-1 Fel: Dörrblad ligger på felaktigt avstånd från karm. Åtgärd: Dörrblad skall justeras. Se typlösning T04-101.$$q",
+                "04k-2 Fel: Dörrblad är skevt. Åtgärd: Dörrblad skall justeras enligt typlösning T04-302.$$q",
+                "04k-3 Fel: Tröskel är ej i liv med karm. Åtgärd: Tröskel skall placeras i liv med karm enligt typlösning T04202.$$q"
+            ]
+        },
+        {
+            "question_id": "04l",
+            "statement": "Stängningsbeslag fungerar och dess rörliga delar är smorda. ",
+            "types": "1,2",
+            "further_options": [
+                "04l-1 Fel: Stängningsbeslag är ej kompletta. Åtgärd: Stängningsbeslag skall kompletteras enligt typlösning T04101.$$q",
+                "04l-2 Fel: Stängningsbeslag kärvar. Åtgärd: Stängningsbeslag skall justeras och rörliga delar smörjas. Se typlösning T04-101.$$q"
+            ]
+        },
+        {
+            "question_id": "04m",
+            "statement": "Vred passar mot låsklack i karm.",
+            "types": "1,2",
+            "further_options": [
+                "04m-1 Fel: Låsklack är felvänd. Åtgärd: Låsklack skall vändas enligt typlösning T04-401.$$q",
+                "04m-2 Fel: Låsvred är av fel längd. Åtgärd: Längd på låsvred anpassas enligt typlösning T04402.$$q"
+            ]
+        },
+        {
+            "question_id": "04n",
+            "statement": "Tätande brickor finns mellan dörrblad och vred på dörrens båda sidor.",
+            "types": "1,2",
+            "further_options": [
+                "04n-1 Fel: Tätande bricka saknas för tätning vid genomföring för stängningsbeslag. Åtgärd: Tätande bricka skall monteras enligt typlösning T04- 101.$$q"
+            ]
+        },
+        {
+            "question_id": "04o",
+            "statement": "Muttrar för montering av stängningsbeslag är åtdragna.",
+            "types": "1,2",
+            "further_options": [
+                "04o-1 Fel: Mutter för montering av stängningsbeslag är ej åtdragen. Åtgärd: Mutter dras åt. Se typlösning T04-101."
+            ]
+        },
+        {
+            "question_id": "04p",
+            "statement": "Dörrblad reglas med nedåtgående rörelse på vreden. ",
+            "types": "1,2",
+            "further_options": [
+                "04p-1 Fel: Dörrblad reglas med uppåtgående rörelse på vreden. Åtgärd: Låsklack och stoppklack skall vändas enligt typlösning T04403.$$q"
+            ]
+        },
+        {
+            "question_id": "04q",
+            "statement": "Gångjärn är smorda. ",
+            "types": "1,2",
+            "further_options": [
+                "04q-1 Fel: Gångjärn är ej smorda. Åtgärd: Gångjärn skall rengöras och smörjas. Se typlösning T04-101."
+            ]
+        },
+        {
+            "question_id": "04r",
+            "statement": "Gångjärnstappar finns, är monterade och låsta med saxsprintar.",
+            "types": "1,2",
+            "further_options": [
+                "04r-1 Fel: Gångjärnstapp saknas. Åtgärd: Gångjärnstapp skall monteras. Se typlösning T04- 101.$$q",
+                "04r-2 Fel: Saxsprint i gångjärnstapp saknas. Åtgärd: Saxsprint skall monteras. Se typlösning T04-101.$$q"
+            ]
+        },
+        {
+            "question_id": "04s",
+            "statement": "Glidbricka finns mellan dörrgångjärnets delar.",
+            "types": "1,2",
+            "further_options": [
+                "04s-1 Fel: Glidbricka saknas mellan gångjärnsdelarna. Åtgärd: Ny glidbricka skall anskaffas och monteras. Se typlösning T04-101.$$q"
+            ]
+        },
+        {
+            "question_id": "04t",
+            "statement": "Spår för tätningslist är rent från ojämnheter. ",
+            "types": "1,2",
+            "further_options": [
+                "04t-1 Fel: Spår för tätningslist är ej rent från ojämnheter. Åtgärd: Spår för tätningslist skall rensas från ojämnheter samt rostskyddsbehandlas enligt typlösning T12-105.$$q",
+                "04t-2 Fel: Spår för tätningslist är defekt. Åtgärd: Spår för tätningslist skall riktas och rostskyddsmålas enligt typlösning T12-105.$$q"
+            ]
+        },
+        {
+            "question_id": "04u",
+            "statement": "Tätningslist är ändlös, demonterad och förvarad utan talk i en tät förpackning.",
+            "types": "",
+            "further_options": [
+                "04u-1 Fel: Tätningslist är ej riktigt förvarad. Åtgärd: Tätningslist skall förvaras i en tät förpackning. Se typlösning T04-101. Förpackningen märks med innehåll (antal och typ).$$q",
+                "04u-2 Fel: Tätningslist är defekt eller saknas. Åtgärd: Ny tätningslist skall anskaffas och förvaras i en tät förpackning. Se typlösning T04-101. Förpackningen märks med innehåll (antal och typ).$$q",
+                "04u-3 Fel: Tätningslist är förvarad i talk. Åtgärd: Tätningslist skall förvaras i tät förpackning utan talk. Förpackningen märks med innehåll (antal och typ). Se typlösning T04101.$$q"
+            ]
+        },
+        {
+            "question_id": "04v",
+            "statement": "Mittpost till pardörr finns och fungerar.",
+            "types": "1,2",
+            "further_options": [
+                "04v-1 Fel: Mittpost till pardörr saknas. Åtgärd: Ny mittpost skall anskaffas och provmonteras. Se typlösning T04-101. Efter kontroll demonteras mittpost och placeras i skyddsrumsförrådet.$$q",
+                "04v-2 Fel: Mittpost till pardörr har fel längd. Åtgärd: Mittpost skall anpassas och provmonteras. Se typlösning T04-101. Efter kontroll demonteras mittpost och placeras i skyddsrumsförrådet.$$q"
+            ]
+        },
+        {
+            "question_id": "04x",
+            "statement": "Skruv till gångjärnsfäste i karm finns och är åtdragen. ",
+            "types": "2",
+            "further_options": [
+                "04x-1 Fel: Skruv till gångjärnsfäste i karm saknas. Åtgärd: Ny skruv skall monteras. Se typlösning T04-101.$$q",
+                "04x-2 Fel: Skruv till gångjärnsfäste i karm är ej åtdragen. Åtgärd: Skruv skall dras åt. Se typlösning T04-101.$$q"
+            ]
+        }
+    ]
+}

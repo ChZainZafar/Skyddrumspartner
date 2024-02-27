@@ -74,9 +74,7 @@ export default function SignupScreen({ route, navigation }) {
           );
           setIsLoading(false);
           setTimeout(function () {
-            navigation.navigate("SigninScreen", {
-              userType: "buyer",
-            });
+            navigation.navigate("SigninScreen");
           }, 2500);
         } catch (e) {
           setIsLoading(false);

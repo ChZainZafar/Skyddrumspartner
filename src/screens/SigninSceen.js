@@ -1,4 +1,4 @@
-import { Text, View } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import Starter from "../components/Starter";
 import MyButton from "../components/MyButton";
 import { useContext, useState } from "react";
@@ -8,7 +8,7 @@ import Toast from "react-native-toast-message";
 import { signinUser } from "../config/firebase.js";
 import { UserContext } from "../context/UserContext.js";
 export default function SigninScreen({ route, navigation }) {
-  const { userType } = route.params;
+  // const { userType } = route.params;
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -38,22 +38,20 @@ export default function SigninScreen({ route, navigation }) {
             "You have signed in successfully!",
             "Welcome to Insectors"
           );
-          if (email == "aqeelzafar195@gmail.com" && password == "12345678") {
-            setIsAdmin(true);
-            navigation.navigate("Home");
-          } else {
-            setTimeout(function () {
-              userType == "buyer"
-                ? navigation.navigate("Home")
-                : navigation.navigate("Home");
-              // navigation.navigate("Home");
-            }, 2500);
-            console.log("signed in");
-          }
-        } else {
-          showToast("error", "Email not verified");
-          setIsLoading(false);
+          // if (email == "aqeelzafar195@gmail.com" && password == "12345678") {
+          //   setIsAdmin(true);
+          //   navigation.navigate("Home");
+          // } else {
+          setTimeout(function () {
+            navigation.navigate("InspectionListScreen");
+            // navigation.navigate("Home");
+          }, 2500);
+          console.log("signed in");
         }
+        // } else {
+        //   showToast("error", "Email not verified");
+        //   setIsLoading(false);
+        // }
       } catch (e) {
         // setErr(e);
         setIsLoading(false);
@@ -113,19 +111,29 @@ export default function SigninScreen({ route, navigation }) {
             />
 
             <MyButton
-              title={
-                userType == "buyer"
-                  ? "Login"
-                  : userType == "seller"
-                  ? "Login"
-                  : "Login as Admin"
-              }
+              title={"Sign in"}
               onPress={() => {
                 onSigninPress();
               }}
               loading={isLoading}
               disabled={isLoading}
             />
+            <TouchableOpacity
+              style={{ width: "100%" }}
+              onPress={() => {
+                navigation.navigate("SignupScreen");
+              }}
+            >
+              <Text
+                style={{
+                  color: Constants.THEME_COLOR,
+                  alignSelf: "flex-end",
+                  fontSize: 14,
+                }}
+              >
+                Dont have an account? Sign up instead
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </Starter>

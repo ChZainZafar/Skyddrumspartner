@@ -1,0 +1,66 @@
+{
+  "chapter_id": "2",
+  "chapter_name": "Luftsluss",
+  "questions": [
+      {
+          "question_id": "02a",
+          "statement": "Fast luftsluss finns vid reservutgång.",
+          "types": "1",
+          "further_options": [
+              "02a-1Fel: Luftsluss saknas vid reservutgång. Åtgärd: Ny igensättning med betongelement enligt typlösning T08-102 utförs"
+          ]
+      },
+      {
+          "question_id": "02b",
+          "statement": "Fast luftsluss finns vid skyddsrummets ingång.",
+          "types": "1,2",
+          "further_options": [
+              "02b-1 Fel: Fast luftsluss saknas vid skyddsrummets ingång. Åtgärd: Ny luftsluss av 150 mm betong med ny gasdörr skall anordnas. Se typlösning T02-102.",
+              "02b-2 Fel: Luftsluss saknas vid extra ingång med inåtgående skyddsdörr utan gastätning. Åtgärd: Ny luftsluss av 150 mm betong med ny gasdörr skall anordnas. Se typlösning T02-102."
+          ]
+      },
+      {
+          "question_id": "02c",
+          "statement": "Monterbar luftsluss finns vid skyddsrummets ingång.",
+          "types": "2,3",
+          "further_options": [
+              "02c-1 Fel: Luftsluss saknas vid skyddsrummets ingång. Åtgärd: Ny monterbar luftsluss skall anskaffas och provmonteras. Se typlösning T02-103."
+          ]
+      },
+      {
+          "question_id": "02d",
+          "statement": "Monterbar luftsluss är av godkänd typ.",
+          "types": "2,3",
+          "further_options": [
+              "02d-1 Fel: Monterbar luftsluss är inte av godkänd typ. Åtgärd: Ny monterbar luftsluss skall anskaffas och provmonteras. Se typlösning T02-103."
+          ]
+      },
+      {
+          "question_id": "02e",
+          "statement": "Monterbar luftsluss anliggningsytor är släta och infästningar finns.",
+          "types": "2,3",
+          "further_options": [
+              "02e-1 Fel: Monterbar luftsluss har dålig anslutning mot vägg. Åtgärd: Luftslussens anliggningsytor skall rensas från utstickande föremål, håligheter lagas och kablar demonteras. Se typlösning T02101.",
+              "02e-2 Fel: Infästningar saknas helt. Åtgärd: Nya expanderskruvar med invändig gänga anskaffas och monteras. Se typlösning T02-101. Infästningsskruvar till expanderskruvarna förvaras i gemensam förpackning tillsammans med luftslussen i skyddsrumsförrådet.",
+              "02e-3 Fel: Infästningsskruv till ingjuten ankarskena saknas. Åtgärd: Nya infästningsskruv passande till ankarskenan anskaffas. Se typlösning T02-101. Infästningsskruvar förvaras i gemensam förpackning tillsammans med luftslussen i skyddsrumsförrådet.",
+              "02e-4 Fel: Mutter alternativt skruv till inborrad expanderskruv saknas. Åtgärd: Ny mutter alternativt infästningsskruv passande till inborrad expanderskruv anskaffas. Se typlösning T02-101. Muttrar alternativt skruvar förvaras i gemensam förpackning tillsammans med luftslussen i skyddsrumsförrådet."
+          ]
+      },
+      {
+          "question_id": "02f",
+          "statement": "Monteringsanvisning finns för monterbar luftsluss.",
+          "types": "2,3",
+          "further_options": [
+              "02f-1 Fel: Monteringsanvisning för monterbar luftsluss saknas. Åtgärd: Ny monteringsanvisning skall anskaffas. Se typlösning T02101."
+          ]
+      },
+      {
+          "question_id": "02g",
+          "statement": "Monterbar luftsluss är demonterad och finns i förrådet. ",
+          "types": "2,3",
+          "further_options": [
+              "02g-1 Fel: Monterbar luftsluss är uppsatt. Åtgärd: Luftsluss skall demonteras och läggas i skyddsrumsförrådet. Se typlösning T02-101."
+          ]
+      }
+  ]
+}

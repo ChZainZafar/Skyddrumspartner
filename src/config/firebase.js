@@ -26,18 +26,34 @@ import {
   initializeAuth,
   getReactNativePersistence,
 } from "firebase/auth";
-import { getDatabase, push, set, ref as realtimeRef } from "firebase/database";
-import AsyncStorage from "@react-native-async-storage/async-storage";
-const firebaseConfig = {
-  apiKey: "AIzaSyDWiw7hc4gzZgnkTa7g4ahcVC5dVOnN4AU",
-  authDomain: "smart-parking-system-968a6.firebaseapp.com",
-  databaseURL: "https://smart-parking-system-968a6-default-rtdb.firebaseio.com",
-  projectId: "smart-parking-system-968a6",
-  storageBucket: "smart-parking-system-968a6.appspot.com",
-  messagingSenderId: "267603281356",
-  appId: "1:267603281356:web:008f56b5e62c1ee17e0969",
-};
+import {
+  getDatabase,
+  push,
+  set,
+  ref as realtimeRef,
+  get,
+  child,
+} from "firebase/database";
 
+import AsyncStorage from "@react-native-async-storage/async-storage";
+// const firebaseConfig = {
+//   apiKey: "AIzaSyDWiw7hc4gzZgnkTa7g4ahcVC5dVOnN4AU",
+//   authDomain: "smart-parking-system-968a6.firebaseapp.com",
+//   databaseURL: "https://smart-parking-system-968a6-default-rtdb.firebaseio.com",
+//   projectId: "smart-parking-system-968a6",
+//   storageBucket: "smart-parking-system-968a6.appspot.com",
+//   messagingSenderId: "267603281356",
+//   appId: "1:267603281356:web:008f56b5e62c1ee17e0969",
+// };
+const firebaseConfig = {
+  apiKey: "AIzaSyDQpEVlbvscQUU7E3FehvPe1WEwNbluw8Q",
+  authDomain: "fir-db-project-798a3.firebaseapp.com",
+  databaseURL: "https://fir-db-project-798a3-default-rtdb.firebaseio.com",
+  projectId: "fir-db-project-798a3",
+  storageBucket: "fir-db-project-798a3.appspot.com",
+  messagingSenderId: "298867210644",
+  appId: "1:298867210644:web:3faa14e579755644fb7781",
+};
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = initializeAuth(app, {
@@ -103,31 +119,6 @@ export const getAllDocuments = (collectionName, callback, secondCallback) => {
   return unsubscribe;
 };
 
-export async function sendMessage(currentUid, guestUid, message) {
-  // return setDoc(doc(db, Constants.USER_COLLECTION, user.userId), user);
-
-  return set(
-    push(realtimeRef(database, `insectorsMessages/${currentUid}/${guestUid}`)),
-    {
-      sender: currentUid,
-      reciever: guestUid,
-      message: message,
-    }
-  );
-}
-
-export async function recieveMessage(currentUid, guestUid, message) {
-  // return setDoc(doc(db, Constants.USER_COLLECTION, user.userId), user);
-  return set(
-    push(realtimeRef(database, `insectorsMessages/${guestUid}/${currentUid}`)),
-    {
-      sender: currentUid,
-      reciever: guestUid,
-      message: message,
-    }
-  );
-}
-
 export async function getTable(tableName) {
   return realtimeRef(database, `${tableName}/`);
 }
@@ -158,4 +149,14 @@ export function getMultipleInsects(propertyValue, propertyName, operator) {
     collection(db, Constants.INSECTS_COLLECTION),
     where(`${propertyName}`, `${operator}`, `${propertyValue}`)
   );
+}
+
+export async function writeRealtimeDocument(path, object) {
+  const db = getDatabase();
+  set(realtimeRef(db, path), object);
+}
+
+export async function GetRealtimeDocuments(path) {
+  const dbRef = realtimeRef(getDatabase());
+  return get(child(dbRef, path));
 }

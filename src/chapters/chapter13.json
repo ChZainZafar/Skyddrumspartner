@@ -1,0 +1,351 @@
+{
+    "chapter_id": "13",
+    "chapter_name": "Ventilationsaggregat",
+    "questions": [
+        {
+            "question_id": "03a",
+            "statement": "Inklädnad möjliggör inspektion och underhåll.",
+            "types": "1,2,3",
+            "further_options": [
+                "03a-1 Fel: Inklädnad är ej lätt demonterbar. Åtgärd: Inklädnad skall utföras lätt demonterbar enligt typlösning T03102.$$q"
+            ]
+        },
+        {
+            "question_id": "03b",
+            "statement": "Dörr är av godkänd typ. ",
+            "types": "1,2,3",
+            "further_options": [
+                "03b-1 Fel: Dörr är inte av godkänd typ. Åtgärd: Ny dörr inklusive karm skall anordnas enligt typlösning T03-103.$$q"
+            ]
+        },
+        {
+            "question_id": "03c",
+            "statement": "Dörrblad är monterat. ",
+            "types": "1,2,3",
+            "further_options": [
+                "03c-1 Fel: Dörrblad är inte monterat. Åtgärd: Nytt dörrblad av godkänd typ enligt typlösning T03- 101 skall monteras.$$n"
+            ]
+        },
+        {
+            "question_id": "03d",
+            "statement": "Dörrblad går fritt från golv, väggar eller installationer vid öppnande och stängande.",
+            "types": "",
+            "further_options": [
+                "03d-1 Fel: Dörr tar i golv, väggar eller installationer vid öppnande och stängande. Åtgärd: Dörr alternativt dess omgivning skall justeras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03e",
+            "statement": "Dörr är riktigt påhängd och justerad i karm.",
+            "types": "1,2,3",
+            "further_options": [
+                "03e-1##Fel: Dörr är felaktigt påhängd. Åtgärd: Hängning skall justeras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03f",
+            "statement": "Ingjutning av karm och tröskel är riktigt gjord.",
+            "types": "1,2,3",
+            "further_options": [
+                "03f-1 Fel: Håligheter finns mellan karm och vägg. Åtgärd: Håligheter skall igenlagas enligt typlösning T12-102.$$q",
+                "03f-2 Fel: Håligheter finns mellan tröskel och golv.Åtgärd: Håligheter skall igenlagas enligt typlösning T12-102.$$q"
+            ]
+        },
+        {
+            "question_id": "03g",
+            "statement": "Dörr och karm är rostskyddsbehandlade och utan rostangrepp.",
+            "types": "1,2,3",
+            "further_options": [
+                "03g-1 Fel: Bristande rostskyddsbehandling på dörr och karm. Åtgärd: Rostskyddsbehandling skall kompletteras enligt typlösning T12-105.",
+                "03g-2 Fel: Rostskyddsbehandling saknas på dörr och karm. Åtgärd: Dörr och karm skall rostskyddsbehandlas enligt typlösning T12-105."
+            ]
+        },
+        {
+            "question_id": "03h",
+            "statement": "Stängningsbeslag fungerar och dess rörliga delar är smorda.",
+            "types": "1,2,3",
+            "further_options": [
+                "03h-1 Fel: Stängningsbeslag är ej kompletta. Åtgärd: Stängningsbeslag skall kompletteras. Se typlösning T03-101.$$2",
+                "03h-2 Fel: Stängningsbeslag kärvar. Åtgärd: Stängningsbeslag skall justeras och rörliga delar smörjas. Se typlösning T03-101."
+            ]
+        },
+        {
+            "question_id": "03i",
+            "statement": "Gångjärn är smorda och fria från rost.",
+            "types": "1,2,3",
+            "further_options": [
+                "03i-1 Fel: Gångjärn är osmorda. Åtgärd: Gångjärn skall rengöras och smörjas. Se typlösning T03-101."
+            ]
+        },
+        {
+            "question_id": "03j",
+            "statement": "Mittpost till pardörr finns och fungerar.",
+            "types": "1,2,3",
+            "further_options": [
+                "03j-1 Fel: Mittpost till pardörr saknas. Åtgärd: Ny mittpost skall anskaffas och provmonteras. Se typlösning T03-101. Efter kontroll demonteras mittpost och placeras i skyddsrumsförrådet.$$q",
+                "03j-2 Fel: Mittpost till pardörr har fel längd. Åtgärd: Mittpost skall anpassas och provmonteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03k",
+            "statement": "Montageskruv till mittpost finns. ",
+            "types": "1,2,3",
+            "further_options": [
+                "03k-1 Fel: Montageskruv till mittpost saknas. Åtgärd: Ny montageskruv skall anskaffas. Se typlösning T03- 101.$$q"
+            ]
+        },
+        {
+            "question_id": "03l",
+            "statement": "Mittpost är rostskyddsbehandlad och utan rostangrepp.",
+            "types": "1,2,3",
+            "further_options": [
+                "03l-1 Fel: Bristande rostskyddsbehandling på mittpost. Åtgärd: Rostskyddsbehandling skall kompletteras enligt typlösning T12-105.$4q",
+                "03l-2 Fel: Rostskyddsbehandling saknas på mittpost. Åtgärd: Mittpost skall rostskyddsbehandlas enligt typlösning T12-105.$$q"
+            ]
+        },
+        {
+            "question_id": "03m",
+            "statement": "Dörr i splitterskyddat läge har minst 15 mm plåt i dörrbladet. ",
+            "types": "1",
+            "further_options": [
+                "03m-1 Fel: Dörr i splitterskyddat läge har dörrblad som är tunnare än 15 mm. Åtgärd: Dörr skall kompletteras med plåt så att tjockleken blir minst 15 mm enligt typlösning T03-301.$$q"
+            ]
+        },
+        {
+            "question_id": "03n",
+            "statement": "Dörr i ej splitterskyddat läge har minst 30 mm plåt i dörrbladet. ",
+            "types": "1",
+            "further_options": [
+                "03n-1 Fel: Dörr i ej splitterskyddat läge har dörrblad som är tunnare än 30 mm. Åtgärd: Dörr skall kompletteras med plåt så att tjockleken blir minst 30 mm enligt typlösning T03-302$$q"
+            ]
+        },
+        {
+            "question_id": "03o",
+            "statement": "Dörr är inåtgående.",
+            "types": "1",
+            "further_options": [
+                "03o-1 Fel: Dörr är utåtgående och ingen annan öppning är inåtgående. Åtgärd: Ny reservutgång enligt typlösning T08-102 anordnas.$$q"
+            ]
+        },
+        {
+            "question_id": "03p",
+            "statement": "Avstånd mellan dörrblad och karm vid stängd dörr är högst 7 mm.",
+            "types": "1",
+            "further_options": [
+                "03p-1 Fel: Dörrblad ligger på felaktigt avstånd från karm. Åtgärd: Dörrblad skall justeras på gångjärnssidan enligt typlösning T03-303.$$q"
+            ]
+        },
+        {
+            "question_id": "03q",
+            "statement": "Fjädrande låsplatta i karm är justerad så att dörr sluter väl mot karm.",
+            "types": "1",
+            "further_options": [
+                "03q-1 Fel: Dörr sluter inte väl mot karm. Åtgärd: Fjädrande låsplatta i karm skall justeras så att avstånd mellan dörrblad och karm är maximalt 3 mm. Setyplösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03r",
+            "statement": "Muttrar till fjädrande låsplatta är låsta med saxsprintar. ",
+            "types": "1",
+            "further_options": [
+                "03r-1 Fel: Mutter till fjädrande låsplatta är ej låst med saxsprint. Åtgärd: Mutter till låsplatta skall låsas med saxsprint. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03s",
+            "statement": "Stängningsvred är monterade och dess muttrar låsta med saxsprintar.",
+            "types": "1",
+            "further_options": [
+                "03s-1 Fel: Stängningsvred saknas. Åtgärd: Nytt stängningsvred med muttrar och saxsprintar skall anordnas. Se typlösning T03-101.$$q",
+                "03s-2 Fel: Saxsprint alternativt mutter saknas. Åtgärd: Stängningsvred kompletteras med saxsprint alternativt mutter. Se typlösning T03-101.05."
+            ]
+        },
+        {
+            "question_id": "03t",
+            "statement": "Stoppskruv eller låsklack på låskolv finns.",
+            "types": "1",
+            "further_options": [
+                "03t-1 Fel: Stoppskruv alternativt låsklack på låskolv saknas. Åtgärd: Ny stoppskruv alternativt stoppklack skall anordnas. Se typlösning T03-101."
+            ]
+        },
+        {
+            "question_id": "03u",
+            "statement": "Undre del av gångjärn är monterad med skruv och mutter.",
+            "types": "1",
+            "further_options": [
+                "03u-1 Fel: Undre del av gångjärn är ej monterad med skruv och mutter. Åtgärd: Nya skruv och mutter skall monteras. Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03v",
+            "statement": "Övre del av gångjärn är monterad med tapp.",
+            "types": "1",
+            "further_options": [
+                "03v-1 Fel: Övre del av gångjärn är ej monterad med tapp. Åtgärd: Ny tapp skall monteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03x",
+            "statement": "Glidbricka finns mellan gångjärn och fjäderskruvar. ",
+            "types": "1",
+            "further_options": [
+                "03x-1 Fel: Glidbricka saknas mellan gångjärn och fjäderskruvar. Åtgärd: Ny glidbricka skall monteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03y",
+            "statement": "Fast tröskel finns.",
+            "types": "1,2",
+            "further_options": [
+                "03y-1 Fel: Fast tröskel är borttagen. Åtgärd: Ny tröskel enligt typlösning T03-203 anordnas.$q"
+            ]
+        },
+        {
+            "question_id": "03z",
+            "statement": "Dörr vid öppning utan permanent luftsluss är betongfylld.",
+            "types": "2",
+            "further_options": [
+                "03z-1 Fel: Dörr vid öppning utan permanent luftsluss är inte betongfylld. Åtgärd: Dörrblad igjutes enligt typlösning T03-304.$$q"
+            ]
+        },
+        {
+            "question_id": "03å",
+            "statement": "Dörr till permanent luftsluss i ej splitterskyddat läge är betongfylld.",
+            "types": "2",
+            "further_options": [
+                "03å-1 Fel: Dörr till permanent luftsluss i ej splitterskyddat läge är inte betongfylld. Åtgärd: Dörrblad igjutes enligt typlösning T03-304.$$q"
+            ]
+        },
+        {
+            "question_id": "03ä",
+            "statement": "Låskolv slår stopp mot låsklack vid låsning.",
+            "types": "2",
+            "further_options": [
+                "03ä-1 Fel: Glapp mot stängningsbeslag (ND- och NSD-dörr). Åtgärd: Justering och/eller komplettering med bricka alternativt påsvetsat plattstål till stängningsbeslag skall utföras enligt typlösning T03-401.#$$q"
+            ]
+        },
+        {
+            "question_id": "03ö",
+            "statement": "Gångjärnssprint finns och är av rätt längd.",
+            "types": "2",
+            "further_options": [
+                "03ö-1 Fel: Gångjärnssprint saknas. Åtgärd: Ny gångjärnssprint skall monteras. Se typlösning T03- 402.$$q"
+            ]
+        },
+        {
+            "question_id": "03aa",
+            "statement": "Gångjärnssprint är låst med saxsprint.",
+            "types": "2",
+            "further_options": [
+                "03aa-1 Fel: Saxsprint i gångjärnssprint saknas. Åtgärd: Ny saxsprint skall monteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ab",
+            "statement": "Fjäderstål är låsta och spända.",
+            "types": "2",
+            "further_options": [
+                "03ab-1 Fel: Infästningsskruv till fjäderstål saknas eller är ej åtdragen. Åtgärd: Fjäderstål skall infästas med infästningsskruv. Se typlösning T03-101.$$q",
+                "03ab-2 Fel: Fjäderstål är inte spända. Åtgärd: Fjäderstål skall spännas med justerskruvarna. Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ac",
+            "statement": "Justerskruv finns.",
+            "types": "2",
+            "further_options": [
+                "03ac-1 Fel: Justerskruv saknas. Åtgärd: Ny justerskruv skall monteras. Se typlösning T03-101."
+            ]
+        },
+        {
+            "question_id": "03ad",
+            "statement": "Ankarskruv med mutter och bricka finns och är åtdragen. ",
+            "types": "2",
+            "further_options": [
+                "03ad-1 Fel: Gångjärnsinfästning med ankarskruv, mutter och bricka är ej komplett. Åtgärd: Gångjärnsinfästning skall kompletteras. Se typlösning T03101.$$q",
+                "03ad-2 Fel: Mutter till ankarskruv är ej åtdragen. Åtgärd: Mutter skall dras åt. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ae",
+            "statement": "Tätningslist till stötupptagande gummilist är monterad och oskadad.",
+            "types": "2",
+            "further_options": [
+                "03ae-1 Fel: Tätningslist till stötupptagande gummilist är defekt eller saknas. Åtgärd: Ny tätningslist skall monteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03af",
+            "statement": "Stötupptagande list är av gummi samt är monterad och oskadad.",
+            "types": "2",
+            "further_options": [
+                "03af-1 Fel: Stötupptagande list är av cellplast. Åtgärd: Stötupptagande list skall bytas enligt typlösning T03- 305.$$q",
+                "03af-2 Fel: Stötupptagande list är inte fastlimmad längs hela dörrbladet. Åtgärd: Stötupptagande list skall limmas fast. Se typlösning T03-101.$$q",
+                "03af-3 Fel: Stötupptagande list är skadad. Åtgärd: Ny stötupptagande list skall monteras. Se typlösning T03-101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ag",
+            "statement": "Dörr är utåtgående. ",
+            "types": "2,3",
+            "further_options": [
+                "03ag-1 Fel: ND/NSD-dörr 1961-1967 är inåtgående. Åtgärd: Dörr skall vändas enligt typlösning T03-104$$q",
+                "03ag-2 Fel: ND/NSD-dörr 1968-1991 är inåtgående. Åtgärd: Dörr skall vändas enligt typlösning T03-105.$$q",
+                "03ag-3 Fel: SRD-dörr är inåtgående. Åtgärd: Dörr skall vändas enligt typlösning T03-106.$$q"
+            ]
+        },
+        {
+            "question_id": "03ah",
+            "statement": "Vred stängs med nedåtriktad rörelse. ",
+            "types": "2,3",
+            "further_options": [
+                "03ah-1 Fel: Vred stängs med uppåtriktad rörelse. Åtgärd: Låsklackar skall vändas. Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ai",
+            "statement": "Löstagbar tröskel finns.",
+            "types": "2,3",
+            "further_options": [
+                "03ai-1 Fel: Löstagbar tröskel saknas. Åtgärd: Löstagbar tröskel enligt typlösning T03-101 skall anskaffas.$$q",
+                "03ai-2 Fel: Infästning av löstagbar tröskel fungerar ej. Åtgärd: Ny infästning utförs enligt typlösning T03-203.$$q"
+            ]
+        },
+        {
+            "question_id": "03aj",
+            "statement": "Dörrblad tätar runt om i karm vid stängd dörr",
+            "types": "2,3",
+            "further_options": [
+                "03aj-1 Fel: Dörrblad tätar inte runt om i karm vid stängd dörr. Åtgärd: Dörr skall justeras så att dörrbladet tätar. Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03ak",
+            "statement": "Kullager är smorda och hela.",
+            "types": "2,3",
+            "further_options": [
+                "03ak-1 Fel: Kullager är tröga. Åtgärd: Kullager skall rengöras och smörjas. Se typlösning T03-101.$$q",
+                "03ak-2 Fel: Kullager är defekta. Åtgärd: Kullager skall bytas. Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03al",
+            "statement": "Tätningslist är demonterad, oskadad och förvarad utan talk i förrådet.",
+            "types": "3",
+            "further_options": [
+                "03al-1 Fel: Tätningslist är monterad. Åtgärd: Tätningslist skall demonteras och förvaras i tät förpackning samt placeras i skyddsrumsförrådet. Förpackningen märks med innehåll (antal och typ). Se typlösning T03-101.$$q",
+                "03al-2 Fel: Tätningslist är defekt eller saknas. Åtgärd: Ny tätningslist skall anskaffas och förvaras i tät förpackning samt placeras i skyddsrumsförrådet. Förpackningen märks med innehåll (antal och typ). Se typlösning T03-101.$$q",
+                "03al-3 Fel: Tätningslist är förvarad i talk. Åtgärd: Tätningslist skall förvaras i tät förpackning utan talk. Förpackningen märks med innehåll (antal och typ). Se typlösning T03101.$$q"
+            ]
+        },
+        {
+            "question_id": "03am",
+            "statement": "Splitterskyddsplåtar är demonterade och oskadade.",
+            "types": "3",
+            "further_options": [
+                "03am-1 Fel: Splitterskyddsplåtar är monterade. Åtgärd: Splitterskyddsplåtar skall demonteras och placeras i skyddsrumsförrådet. Se typlösning T03-101.$$q",
+                "03am-2 Fel: Splitterskyddsplåtar är defekta eller saknas. Åtgärd: Nya splitterskyddsplåtar skall anskaffas, provmonteras samt placeras i skyddsrumsförrådet. Se typlösning T03-101.$$q"
+            ]
+        }
+    ]
+}

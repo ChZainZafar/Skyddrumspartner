@@ -1,33 +1,33 @@
 {
-    "chapter_id": "01",
-    "chapter_name": "Skyddsrumsfunktion",
-    "questions":[
+  "chapter_id": "1",
+  "chapter_name": "Skyddsrumsfunktion",
+  "questions": [
       {
-        "question_id":"01a",
-        "statement":"Det är möjligt att iordningställa skyddsrummet inom tv dygn.",
-        "types":"1,2,3",
-        "further_options" : [
-          "01a-##Fel Det är Now, from this chapter the inspection questions starts. Inspection questions that is relevant for users to answer depends on which type tva dygn. is chosen. This ques"
-        ]
+          "question_id": "01a",
+          "statement": "Det är möjligt att iordningställa skyddsrummet inom tv dygn.",
+          "types": "1,2,3",
+          "further_options": [
+              "02a-1 Fel: Luftsluss saknas vid reservutgång. Åtgärd: Ny igensättning med betongelement enligt typlösning T08-102 utförs."
+          ]
       },
       {
-        "question_id":"01b",
-        "statement":"Skyltar om läge pả skydasrum och skydasrumstorrad tinns och är uppsatta.",
-        "types":"1,2,3",
-        "further_options" : [
-          "01b-1##Fel: Skyddsrumsskylt vid byggnadens entré saknas. Ätgärd: Skylt enligt typlösning T01-101 uppsättes.",
-          "01b-2##Fel: Skyddsrumsskylt vid ingảng till skyddsrummet saknas. Ätgärd: Skylt enligt typlösning T01-101 uppsättes.",
-          "01b-3##Fel: Skyddsrumsförrädet ligger inte i skyddsrummet och skylt som anger var skyddsrumsförrädet är beläget saknas.Ätgärd: Skylt enligt typlösning T01-101 uppsättes."
-        ]
+          "question_id": "01b",
+          "statement": "Skyltar om läge pả skydasrum och skydasrumstorrad tinns och är uppsatta.",
+          "types": "1,2,3",
+          "further_options": [
+              "01b-1 Fel: Skyddsrumsskylt vid byggnadens entré saknas. Ätgärd: Skylt enligt typlösning T01-101 uppsättes.",
+              "01b-2 Fel: Skyddsrumsskylt vid ingảng till skyddsrummet saknas. Ätgärd: Skylt enligt typlösning T01-101 uppsättes.",
+              "01b-3 Fel: Skyddsrumsförrädet ligger inte i skyddsrummet och skylt som anger var skyddsrumsförrädet är beläget saknas.Ätgärd: Skylt enligt typlösning T01-101 uppsättes."
+          ]
       },
       {
-        "question_id":"01c",
-        "statement":"lordningställanderitning finns och stämmer med förhảllandena i skyddsrummet.",
-        "types":"2,3",
-        "further_options" : [
-          "01c-1##Fel: lordningställanderitning saknas. Ätgärd: Ny iordningställanderitning skall upprättas. Se typlösning T01101.",
-          "01c-2##Fel: lordingställanderitning överensstämmer ej med förhällandena i skyddsrummet. Ätgärd: lordingställanderitning skall justeras sả att den överensstämmer med förhallandena i skyddsrummet. Se typlösning T01-101."
-        ]
+          "question_id": "01c",
+          "statement": "lordningställanderitning finns och stämmer med förhảllandena i skyddsrummet.",
+          "types": "2,3",
+          "further_options": [
+              "01c-1 Fel: lordningställanderitning saknas. Ätgärd: Ny iordningställanderitning skall upprättas. Se typlösning T01101.",
+              "01c-2 Fel: lordingställanderitning överensstämmer ej med förhällandena i skyddsrummet. Ätgärd: lordingställanderitning skall justeras sả att den överensstämmer med förhallandena i skyddsrummet. Se typlösning T01-101."
+          ]
       }
-    ]
-  }
+  ]
+}
